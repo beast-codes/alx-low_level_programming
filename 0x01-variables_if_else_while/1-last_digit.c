@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- *main - code goes here
- *return: always 0
+ *Main- Last digits
+ *Return: always 0
  */
 /* betty style doc for function main goes there */
 int main(void)
