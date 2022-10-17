@@ -2,9 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- *Main- Last digits
- *Return: always 0
+ * main- Entry point
+ * Description: last digits
+ * Return: always 0
  */
+
 /* betty style doc for function main goes there */
 int main(void)
 {
