@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- *main - code is here 
- *Return: returns zero if all is right 
+*main- code is here
+*Return: returns zero if all is right
  */
 
 /* betty style doc for function main goes there */
@@ -13,10 +13,10 @@ int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (n > 0)
-printf("n is positive\n");
+printf("%d is positive\n", n);
+else if (n == 0)
+printf("%d is zero\n", n);
 else
-printf("n is negative\n");
-if (n == 0)
-printf("n is zero\n");
+printf("%d is negative\n", n);
 return (0);
 }
