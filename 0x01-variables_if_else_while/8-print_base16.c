@@ -10,7 +10,7 @@ int num;
 int lca;
 for (num = 0; num <= 9; num++)
 putchar((num % 10) + '0');
-for (lca = 'a'; lca = 'f'; lca++)
+for (lca = 'a'; lca <= 'f'; lca++)
 putchar(lca);
 putchar('\n');
 return (0);
