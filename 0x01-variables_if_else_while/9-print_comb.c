@@ -11,9 +11,9 @@
 int main(void)
 {
 int n;
-for (n = 58; n < 68; n++)
+for (n = 0; n < 10; n++)
 putchar(n);
-if (n != 67)
+if (n <= 9)
 {
 putchar(',');
 putchar(' ');
